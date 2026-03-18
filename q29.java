@@ -2,15 +2,12 @@ import java.util.Scanner;
 
 public class q29 {
 
-    // 1. Convert Celsius to Fahrenheit
-    // Uses a 'char' as the second parameter
     static void convert(double c, char type) {
         double f = (c * 9 / 5) + 32;
         System.out.println(c + "° Celsius is " + f + "° Fahrenheit");
     }
 
-    // 2. Convert Fahrenheit to Celsius
-    // Uses an 'int' as the second parameter
+   
     static void convert(double f, int type) {
         double c = (f - 32) * 5 / 9;
         System.out.println(f + "° Fahrenheit is " + c + "° Celsius");
